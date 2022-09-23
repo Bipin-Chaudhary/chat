@@ -10,4 +10,4 @@ router
   .get('/:id', user.onGetUserById)
   .delete('/:id', user.onDeleteUserById)
 
-export default router;
+module.exports =  router;
